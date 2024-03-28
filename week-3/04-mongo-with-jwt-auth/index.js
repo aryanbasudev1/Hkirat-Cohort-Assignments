@@ -8,7 +8,7 @@ const app = express();
 
 /*Database connection */
 mongoose.connect(
-  "mongodb+srv://admin:Asdfghjkl123@cluster0.sfkfxnu.mongodb.net/Course-assignment"
+  "your-mongodb-url"
 );
 
 /*mongoose Schema */
