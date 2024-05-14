@@ -23,6 +23,7 @@ export function Assignment2() {
   const filteredSentences = useMemo(() => {
     return sentences.filter((x) => x.includes(filter));
   }, [filter, sentences]);
+  console.log("Assignment 2 re-rendered");
   return (
     <div>
       <input
