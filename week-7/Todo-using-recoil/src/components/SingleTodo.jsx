@@ -3,8 +3,8 @@ import React from "react";
 function SingleTodo(props) {
     return (
         <div>
-            <h4>{props.title}</h4>
-            <h5>{ props.description}</h5>
+            <h1>{props.title}</h1>
+            <h4>{ props.description}</h4>
       </div>
   );
 }
