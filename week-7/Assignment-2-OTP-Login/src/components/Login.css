@@ -1,0 +1,20 @@
+input {
+    margin: 15px;
+    height: 25px;
+    width: 25px;
+}
+input:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none; /* Remove default focus outline */
+  }
+button{
+    color: rgb(43, 48, 43);
+    background-color: gray;
+    margin: 15px;
+    border-radius: 10px;
+    padding-top:5px;
+    padding-bottom:5px; 
+    padding-left: 10px;
+    padding-right: 10px;
+}
